@@ -1,0 +1,21 @@
+name: do_it_kit
+description: A Flutter package with reactive state, DI, named routes, theme manager, and API layer — all via a single Do class.
+version: 0.1.0
+homepage: https://github.com/your-username/do_it_kit
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
