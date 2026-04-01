@@ -64,10 +64,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('do_it_kit'),
-        actions: [
-          // Theme toggle
+        actions: const [
           IconButton(
-            icon: const Icon(Icons.brightness_6),
+            icon: Icon(Icons.brightness_6),
             onPressed: Do.toggleTheme,
           ),
         ],
@@ -157,9 +156,9 @@ class DetailPage extends StatelessWidget {
           children: [
             Text('Received id: ${map?['id']}'),
             const SizedBox(height: 24),
-            FilledButton(
-              onPressed: Do.back, // no context needed
-              child: const Text('Back'),
+            const FilledButton(
+              onPressed: Do.back,
+              child: Text('Back'),
             ),
           ],
         ),
